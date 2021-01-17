@@ -1,0 +1,25 @@
+
+/*Esta es la cabezera donde va la imagen*/
+.evento {
+    width: auto;
+    height: 150px;
+    position: relative;
+
+    .imag{
+        background-image: url("https://i.pinimg.com/736x/4c/3c/1b/4c3c1ba9a6c65e25eeaf93d1d465a0a7.jpg");
+        height: 150px;
+    }
+
+    h1 {
+        top: 50px;
+        left: 20px;
+        color: #f7f7f7;
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0.466); /*ok en sass*/
+        position:absolute;
+        padding:10px;
+        border-radius: 5px;
+        z-index: 1;
+       } 
+
+}  

@@ -1,0 +1,30 @@
+@import "variables";
+
+/*Este es el formulario para todas las páginas*/
+.formulario{
+    margin:30px;
+     float: right;
+     width: 200px;
+     height: 300px;
+     padding: 20px;
+     border-radius: 10px;
+     border: $br-formulario 1px solid;
+
+      /*Corresponde a los input del formulario*/
+    div{
+        input{
+            margin: 10px;
+            padding: 10px;
+            border:$br-forminput 1px solid;
+            border-radius: 5px;
+        }
+        /*Botón de enviar*/
+        #boton{
+            float:right;
+            width: 100px;
+        }
+    }
+ }
+
+ 
+  /*-------Finaliza el código del formulario----------*/
